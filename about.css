@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+   }
+   .center {
+    position: absolute;
+    top: 5%;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 120px;
+    text-justify:auto;
+   }
+   img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+   }
+
+  header ul{
+    display: inline-block;
+
+}
+header ul li{
+    display: inline-block;
+    text-transform: uppercase;
+
+
+}
+header ul li a{
+    color: #000;
+    margin: 0 10px;
+    transition: 0.5s;
+
+}
+header ul li a:hover{
+    color: #7fc142;
+
+}
+header i{
+    margin: 0 20px;
+}
+header button{
+    padding: 13px  40px;
+}
+header .navlinks span{
+    display: none;
+
+}
